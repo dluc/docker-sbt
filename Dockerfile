@@ -3,9 +3,9 @@
 #
 
 FROM 1science/java:oracle-jre-8
-MAINTAINER 1science Devops Team <devops@1science.org>
+MAINTAINER Devis Lucato <devis@lucato.it>
 
-ENV SBT_VERSION 0.13.11
+ENV SBT_VERSION 0.13.12
 ENV SBT_HOME /usr/local/sbt
 ENV PATH ${PATH}:${SBT_HOME}/bin
 
